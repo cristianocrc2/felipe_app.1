@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :mensagems
+
   resources :categoria
 
   resources :representantes do
